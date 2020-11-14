@@ -92,6 +92,8 @@ defmodule LiveViewCounterWeb do
       import LiveViewCounterWeb.ErrorHelpers
       import LiveViewCounterWeb.Gettext
       alias LiveViewCounterWeb.Router.Helpers, as: Routes
+
+      import Phoenix.LiveView.Controller
     end
   end
 
